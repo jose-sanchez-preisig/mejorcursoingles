@@ -1,0 +1,17 @@
+body {
+  background-color: #f9f9f9;
+  font-family: system-ui, sans-serif;
+}
+
+h1, h2, h5 {
+  font-weight: 600;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+ul {
+  margin-bottom: 0.5rem;
+}

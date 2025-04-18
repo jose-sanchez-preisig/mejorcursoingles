@@ -39,6 +39,11 @@ a:hover {
   font-weight: 500;
 }
 
+.hover-shadow:hover {
+  box-shadow: 0 0 0 3px rgba(51, 132, 254, 0.2);
+  transition: box-shadow 0.2s ease;
+}
+
 @media (min-width: 992px) {
   .container {
     padding-left: 2.5rem;

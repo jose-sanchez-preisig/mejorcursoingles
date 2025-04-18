@@ -15,3 +15,33 @@ h1, h2, h5 {
 ul {
   margin-bottom: 0.5rem;
 }
+
+a svg {
+  width: 180px;
+  height: auto;
+  display: block;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.star {
+  color: #FBBF24;
+}
+
+.card .badge {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.card .fw-semibold {
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}

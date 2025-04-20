@@ -1,0 +1,4 @@
+# Ignorar generador y datos del generador
+/generador-cursos/
+/data/
+/output/

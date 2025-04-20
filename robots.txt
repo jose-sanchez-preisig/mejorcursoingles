@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /scripts/
+Allow: /
+
+Sitemap: https://mejorcursoingles.com/sitemap.xml

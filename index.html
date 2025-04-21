@@ -37,7 +37,7 @@
     "name": "Ranking de Cursos de Inglés 2025",
     "description": "Comparativa de los mejores cursos de inglés online basada en miles de opiniones reales.",
     "url": "https://mejorcursoingles.com",
-    "numberOfItems": 11,
+    "numberOfItems": 10,
     "itemListElement": [
       
         {
@@ -158,18 +158,6 @@
             "ratingValue": "2.8",
             "reviewCount": "16000"
           }
-        },
-      
-        {
-          "@type": "ListItem",
-          "position": 11,
-          "url": "https://mejorcursoingles.com/cursos/berlitz-curso-ingles-opiniones.html",
-          "name": "Berlitz",
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "2.6",
-            "reviewCount": "1000"
-          }
         }
       
     ]
@@ -200,13 +188,12 @@
       <div class="collapse navbar-collapse justify-content-end" id="navMenu">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#todos-cursos">Todos los cursos</a>
+            <a class="nav-link" href="#todos-cursos" onclick="scrollToSeccion('todos-cursos', event)">Todos los cursos</a>
           </li>
         </ul>
       </div>
-
       <!-- Botón visible en desktop -->
-      <a href="#ranking-de-cursos" class="btn btn-outline-primary d-none d-lg-block ms-3">Ranking de Cursos</a>
+      <a href="#ranking-de-cursos" class="btn btn-outline-primary d-none d-lg-block ms-3" onclick="scrollToSeccion('ranking-de-cursos', event)">Ranking de Cursos</a>
     </div>
   </nav>
 
@@ -223,7 +210,7 @@
 
           <!-- Texto -->
           <div class="col-12 col-md-6 text-white mb-4 mb-md-0 text-center text-md-start order-2 order-md-1">
-            <h1 class="fw-normal fs-6" style="color: #001A3A;">Compara los Mejores Cursos de Inglés Online 2025</h1>
+            <h1 class="fw-normal fs-6" style="color: #001A3A;">¿Cuál es el mejor curso de inglés online en 2025?</h1>
             <h2 class="display-5 fw-bold">Encuentra el mejor curso de inglés para ti</h2>
             <p class="lead">Analizamos miles de opiniones reales con IA para ayudarte a elegir el mejor curso.</p>
             <a href="#ranking-de-cursos" class="btn btn-light mt-3">Ver Ranking de Cursos</a>
@@ -234,7 +221,7 @@
       <!-- Fecha de actualización en esquina inferior derecha -->
       <div style="position: absolute; bottom: 1rem; right: 1rem;">
         <small id="ultima-actualizacion" class="text-white-50" style="font-size: 0.75rem;">
-          Última actualización: abril 2025
+          Última actualización: Abril 2025
         </small>
       </div>
     </section>
@@ -1593,123 +1580,11 @@
             </a>
           </div>
         
-          <div class="col-12">
-            <a href="cursos/berlitz-curso-ingles-opiniones.html" class="text-decoration-none text-dark">
-              <div class="card shadow-sm border-0 px-5 pt-4 pb-2 hover-shadow ">
-                <!-- Fila 1: encabezado -->
-                <div class="d-flex flex-wrap justify-content-between align-items-start mb-3">
-                  <!-- Izquierda: Ranking + nombre -->
-                  <div>
-                    <div class="d-flex align-items-center mb-1">
-                      <span class="badge bg-light border text-dark py-2 px-3 fw-normal me-3" style="font-size: 1rem">
-                         #11
-                      </span>
-                      <h5 class="mb-0">Berlitz</h5>
-                    </div>
-                  </div>
-
-                  <!-- Derecha: Precio + estrellas + score -->
-                  <div class="d-flex align-items-center justify-content-end gap-2">
-                    <!-- Precio estimado -->
-                    <span class="border border-primary text-primary ps-2 pe-1 py-1 rounded d-flex align-items-center" style="font-size: 0.8rem;">
-                      
-                        <i class="fas fa-dollar-sign me-1" style="opacity: 1;"></i>
-                      
-                        <i class="fas fa-dollar-sign me-1" style="opacity: 1;"></i>
-                      
-                        <i class="fas fa-dollar-sign me-1" style="opacity: 1;"></i>
-                      
-                    </span>
-
-                    <!-- Estrellas -->
-                    <div style="color: #fbbf24; font-size: 1.2rem;">
-                      
-                        <i class="fas fa-star"></i>
-                      
-                        <i class="fas fa-star"></i>
-                      
-                      
-                        <i class="fas fa-star-half-alt"></i>
-                      
-                      
-                        <i class="far fa-star"></i>
-                      
-                        <i class="far fa-star"></i>
-                      
-                      <span class="fw-normal text-muted" style="font-size: 0.85rem;">(+1 mil)</span>
-                    </div>
-
-                    <!-- Puntaje -->
-                    <span class="bg-primary text-white fw-semibold rounded px-2 py-1" style="font-size: 1rem;">
-                      2.6
-                    </span>
-                  </div>
-                </div>
-
-                <!-- Fila 2: tres columnas -->
-                <div class="row g-4 align-items-start">
-                  <!-- Columna 1: Logo -->
-                  <div class="col-12 col-md-2 d-flex justify-content-center align-items-start">
-                    <img loading="lazy" src="img/logo-berlitz.png" class="img-fluid rounded d-block mx-auto img-thumbnail" alt="Logo de Berlitz" style="max-height: 70px;">
-                  </div>
-
-                  <!-- Columna 2: Info general -->
-                  <div class="col-12 col-md-6">
-                    <p class="text-muted small mb-2">Berlitz es uno de los institutos de idiomas más antiguos del mundo, con más de 145 años de historia. A pesar de su trayectoria, acumula muchas críticas por mala atención postventa, falta de seguimiento, problemas administrativos y contratos poco transparentes. Algunos usuarios destacan a ciertos profesores, pero la experiencia general depende mucho del país, sede y asesor asignado.</p>
-                    <ul class="small ps-3 mb-2 text-muted">
-                      
-                        <li>Clases presenciales, online y semiprivadas</li>
-                      
-                        <li>Metodología inmersiva sin traducción</li>
-                      
-                        <li>Amplia oferta de idiomas, no solo inglés</li>
-                      
-                    </ul>
-                    <div class="mb-2">
-                      
-                        <span class="badge bg-light text-dark border me-1">tradicional</span>
-                      
-                        <span class="badge bg-light text-dark border me-1">presencial</span>
-                      
-                        <span class="badge bg-light text-dark border me-1">mal-servicio</span>
-                      
-                        <span class="badge bg-light text-dark border me-1">reclamaciones</span>
-                      
-                    </div>
-                  </div>
-
-                  <!-- Comentarios -->
-                  <div class="col-12 col-md-4 small text-muted">
-                    
-                      <p class="mb-1">
-                        <i class="fa-solid fa-circle-check text-success me-1"></i>
-                        “Mi hija avanzó en japonés gracias a un excelente profesor.”
-                      </p>
-                    
-                      <p class="mb-1">
-                        <i class="fa-solid fa-triangle-exclamation text-warning me-1"></i>
-                        “Los cursos son buenos, pero el proceso administrativo es lento.”
-                      </p>
-                    
-                      <p class="mb-1">
-                        <i class="fa-solid fa-circle-xmark text-danger me-1"></i>
-                        “Cobros tras cancelación y atención deficiente.”
-                      </p>
-                    
-                      <p class="mb-1">
-                        <i class="fa-solid fa-circle-xmark text-danger me-1"></i>
-                        “Te inscriben rápido, pero luego no hay seguimiento ni clases.”
-                      </p>
-                    
-                    <p class="text-end mt-3">
-                      <span class="text-dark fw-semibold text-decoration-underline small pointer-events-none">Ver más información</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        
+      </div>
+      <div class="text-center mt-4">
+        <a href="los-mejores-cursos-de-ingles.html" class="btn btn-primary btn-lg">
+          Ver lista completa de cursos
+        </a>
       </div>
     </section>
 
@@ -1728,37 +1603,24 @@
   <footer style="background-color: #3384fe;" class="text-white mt-5 border-0">
     <div class="container py-4">
       <div class="row align-items-center">
-
-        <!-- Nombre del sitio -->
         <div class="col-md-6 mb-3 mb-md-0">
-          <span class="fw-semibold">mejorcursoingles.com</span><br>
+          
+          <a href="." class="text-white text-decoration-none me-3 fw-semibold">mejorcursoingles.com</a><br>
           <small class="text-white-50">Análisis de cursos de inglés</small>
         </div>
-
-        <!-- Links rápidos -->
         <div class="col-md-6 text-md-end">
-          <a href="#ranking-de-cursos" class="text-white text-decoration-none me-3">Ranking</a>
+          <a href="los-mejores-cursos-de-ingles.html" class="text-white text-decoration-none me-3">Ranking</a>
           <a href="mailto:mejorcursoingles@gmail.com" class="text-white text-decoration-none">Contacto</a>
         </div>
       </div>
-
-      <!-- Línea inferior -->
       <div class="text-center mt-3 small text-white-50">
         © 2025 mejorcursoingles.com
       </div>
     </div>
   </footer>
 
-  <script>
-    const meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-    const hoy = new Date();
-    const mes = meses[hoy.getMonth()];
-    const año = hoy.getFullYear();
-    const actualizacion = document.getElementById("ultima-actualizacion");
-    if (actualizacion) {
-      actualizacion.textContent = `Última actualización: ${mes} ${año}`;
-    }
-  </script>
+  <script src="js/scroll-ajustado.js"></script>
+  <script src="js/actualizar-fecha.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

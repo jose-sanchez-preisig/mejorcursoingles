@@ -1,4 +1,13 @@
-# Ignorar generador y datos del generador
-/generador-cursos/
-/data/cursos/
-/output/
+# Ignora el generador y sus archivos
+/generador/
+
+# Ignora entorno virtual
+/venv/
+
+# Ignora archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Ignora archivos del sistema operativo
+.DS_Store
+Thumbs.db

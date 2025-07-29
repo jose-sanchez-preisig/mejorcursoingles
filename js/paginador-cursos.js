@@ -32,7 +32,7 @@ function crearCardHTML(curso) {
   const temp = document.createElement('div');
   temp.innerHTML = `
     <div class="col-12">
-      <a href="cursos/${curso.slug}-curso-ingles-opiniones.html" class="text-decoration-none text-dark">
+      <a href="cursos/${curso.slug}-curso-ingles-opiniones" class="text-decoration-none text-dark">
         <div class="card shadow-sm border-0 px-5 pt-4 pb-2 hover-shadow ${curso.nombre === 'Poliglota' ? 'card-first' : ''}" data-rating="${curso.rating}">
           <!-- Fila 1: encabezado -->
           <div class="d-flex flex-wrap justify-content-between align-items-start mb-3">
@@ -82,6 +82,9 @@ function crearCardHTML(curso) {
             <!-- Comentarios -->
             <div class="col-12 col-md-4 small text-muted">
               ${comentarios}
+              <p class="text-end mt-3">
+                <span class="text-dark fw-semibold text-decoration-underline small pointer-events-none">Ver más información</span>
+              </p>
             </div>
           </div>
         </div>
